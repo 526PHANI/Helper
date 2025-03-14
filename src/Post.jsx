@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { db, storage } from "./firebaseConfig";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import "./Post.css";
+import "./post.css";
 
 const Post = () => {
     const [newPost, setNewPost] = useState("");
