@@ -1,0 +1,48 @@
+/* Learning Page Styles */
+.learning-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .learning-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Card Layout */
+  .learning-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .learning-card {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Different Colors for Each Card */
+  .learning-card:nth-child(1) { background-color: #4A90E2; } /* Java - Blue */
+  .learning-card:nth-child(2) { background-color: #50C878; } /* Python - Green */
+  .learning-card:nth-child(3) { background-color: #F4A460; } /* SQL - Orange */
+  
+  /* Hover Effect */
+  .learning-card:hover {
+    opacity: 0.8;
+  }
+  
+  /* Content Area */
+  .learning-content {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 2px solid #ddd;
+  }
+  

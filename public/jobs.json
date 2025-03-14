@@ -1,0 +1,27 @@
+[
+    {
+      "image": "./image2.png",
+      "role": "Frontend Developer",
+      "company": "Tech Corp",
+      "eligibility": "B.E/B.Tech in CS or related field, 2+ years of experience in React",
+      "year_of_passout": "2020 - 2024",
+      "apply_link": "https://techcorp.com/apply"
+    },
+    {
+      "image": "./image2.png",
+      "role": "Backend Developer",
+      "company": "Code Solutions",
+      "eligibility": "Experience in Node.js, MongoDB, SQL. B.E/B.Tech/MCA",
+      "year_of_passout": "2019 - 2024",
+      "apply_link": "https://codesolutions.com/careers"
+    },
+    {
+      "image": "./image2.png",
+      "role": "UI/UX Designer",
+      "company": "Design Studio",
+      "eligibility": "Any graduate with UI/UX design skills (Figma, Adobe XD, Sketch).",
+      "year_of_passout": "Any year",
+      "apply_link": "https://designstudio.com/apply"
+    }
+  ]
+  

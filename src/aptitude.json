@@ -1,0 +1,255 @@
+[
+    {
+      "id": 1,
+      "question": "What is 25% of 80?",
+      "options": ["10", "15", "20", "25"],
+      "answer": "20"
+    },
+    {
+      "id": 2,
+      "question": "A shopkeeper sells an item for ₹500 and makes a profit of 25%. What was the cost price?",
+      "options": ["₹375", "₹400", "₹425", "₹450"],
+      "answer": "₹400"
+    },
+    {
+      "id": 3,
+      "question": "The average of 5 numbers is 20. If one number is excluded, the average becomes 18. What is the excluded number?",
+      "options": ["24", "26", "28", "30"],
+      "answer": "28"
+    },
+    {
+      "id": 4,
+      "question": "The ratio of boys to girls in a class is 3:5. If there are 24 boys, how many girls are there?",
+      "options": ["36", "40", "44", "48"],
+      "answer": "40"
+    },
+    {
+      "id": 5,
+      "question": "In what ratio must water be mixed with milk to gain 20% by selling the mixture at the cost price?",
+      "options": ["1:3", "1:4", "1:5", "1:6"],
+      "answer": "1:5"
+    },
+    {
+      "id": 6,
+      "question": "A can do a piece of work in 10 days, and B can do it in 15 days. In how many days can they do it together?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "6"
+    },
+    {
+      "id": 7,
+      "question": "A train travels 120 km in 2 hours. What is its speed?",
+      "options": ["40 km/h", "60 km/h", "80 km/h", "100 km/h"],
+      "answer": "60 km/h"
+    },
+    {
+      "id": 8,
+      "question": "Pipe A can fill a tank in 6 hours, and pipe B can empty it in 8 hours. If both pipes are opened, how long will it take to fill the tank?",
+      "options": ["18 hours", "20 hours", "22 hours", "24 hours"],
+      "answer": "24 hours"
+    },
+    {
+      "id": 9,
+      "question": "If x + 5 = 12, then x = ?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "id": 10,
+      "question": "If sin(θ) = 1/2, what is the value of θ?",
+      "options": ["30°", "45°", "60°", "90°"],
+      "answer": "30°"
+    },
+    {
+      "id": 11,
+      "question": "What is the area of a square with side 8 cm?",
+      "options": ["32 sq cm", "48 sq cm", "64 sq cm", "80 sq cm"],
+      "answer": "64 sq cm"
+    },
+    {
+      "id": 12,
+      "question": "What is the probability of getting a head when a fair coin is tossed?",
+      "options": ["1/4", "1/3", "1/2", "2/3"],
+      "answer": "1/2"
+    },
+    {
+      "id": 13,
+      "question": "In how many ways can 3 books be arranged on a shelf?",
+      "options": ["3", "6", "9", "12"],
+      "answer": "6"
+    },
+    {
+      "id": 14,
+      "question": "A is twice as old as B. If the sum of their ages is 36, how old is A?",
+      "options": ["12", "18", "24", "30"],
+      "answer": "24"
+    },
+    {
+      "id": 15,
+      "question": "What is the value of 18% of 150?",
+      "options": ["25", "27", "29", "31"],
+      "answer": "27"
+    },
+    {
+      "id": 16,
+      "question": "A man buys an article for ₹80 and sells it for ₹100. What is his profit percentage?",
+      "options": ["15%", "20%", "25%", "30%"],
+      "answer": "25%"
+    },
+    {
+      "id": 17,
+      "question": "The average of 4 numbers is 25. What is their sum?",
+      "options": ["80", "90", "100", "110"],
+      "answer": "100"
+    },
+    {
+      "id": 18,
+      "question": "If a:b = 2:3 and b:c = 4:5, then a:c = ?",
+      "options": ["6:15", "8:15", "10:15", "12:15"],
+      "answer": "8:15"
+    },
+    {
+      "id": 19,
+      "question": "A container has a mixture of milk and water in the ratio 3:1. If 8 liters of water are added, the ratio becomes 3:2. How much milk was in the container initially?",
+      "options": ["18 liters", "24 liters", "30 liters", "36 liters"],
+      "answer": "24 liters"
+    },
+      {
+      "id": 20,
+      "question": "If 12 men can complete a work in 20 days, how many men are required to complete the same work in 15 days?",
+      "options": ["14", "16", "18", "20"],
+      "answer": "16"
+    },
+    {
+      "id": 21,
+      "question": "A car covers a distance of 400 km in 8 hours. What is its average speed?",
+      "options": ["40 km/h", "50 km/h", "60 km/h", "70 km/h"],
+      "answer": "50 km/h"
+    },
+    {
+      "id": 22,
+      "question": "Pipe A can fill a tank in 10 hours, and pipe B can fill the same tank in 15 hours. How long will they take to fill the tank together?",
+      "options": ["4 hours", "6 hours", "8 hours", "10 hours"],
+      "answer": "6 hours"
+    },
+    {
+      "id": 23,
+      "question": "If 2x - 3 = 7, then x = ?",
+      "options": ["4", "5", "6", "7"],
+      "answer": "5"
+    },
+    {
+      "id": 24,
+      "question": "A pole 10 meters high casts a shadow 10√3 meters long. What is the angle of elevation of the sun?",
+      "options": ["30°", "45°", "60°", "90°"],
+      "answer": "30°"
+    },
+    {
+      "id": 25,
+      "question": "What is the area of a circle with radius 7 cm?",
+      "options": ["44 sq cm", "88 sq cm", "154 sq cm", "220 sq cm"],
+      "answer": "154 sq cm"
+    },
+    {
+      "id": 26,
+      "question": "What is the probability of drawing a king from a standard deck of 52 cards?",
+      "options": ["1/13", "1/12", "1/11", "1/10"],
+      "answer": "1/13"
+    },
+    {
+        "id": 27,
+        "question": "Five years ago, the age of a man was 7 times the age of his son. Five years hence, the man's age will be 3 times the age of his son. What are their present ages?",
+        "options": ["40,10","50,15","60,20","70,25"],
+        "answer": ["50,15"]
+      },
+
+        {
+          "id": 28,
+          "question": "How many 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?",
+          "options": ["60", "120", "180", "240"],
+          "answer": "120"
+        },
+        {
+          "id": 29,
+          "question": "The present ages of A and B are in the ratio 4:5. Ten years ago, the ratio of their ages was 2:3. What is the present age of A?",
+          "options": ["20", "25", "30", "35"],
+          "answer": "20"
+        },
+        {
+          "id": 30,
+          "question": "What is 35% of 120?",
+          "options": ["40", "42", "44", "46"],
+          "answer": "42"
+        },
+        {
+          "id": 31,
+          "question": "A person sells an article at a loss of 10%. If he had sold it for ₹54 more, he would have gained 8%. What is the cost price of the article?",
+          "options": ["₹250", "₹300", "₹350", "₹400"],
+          "answer": "₹300"
+        },
+        {
+          "id": 32,
+          "question": "The average of 6 numbers is 30. If the average of the first 5 numbers is 25, what is the sixth number?",
+          "options": ["50", "55", "60", "65"],
+          "answer": "55"
+        },
+        {
+          "id": 33,
+          "question": "If a:b = 3:4 and b:c = 6:5, then a:b:c = ?",
+          "options": ["9:12:10", "18:24:20", "12:16:15", "15:20:24"],
+          "answer": "18:24:20"
+        },
+        {
+          "id": 34,
+          "question": "A vessel contains a mixture of milk and water in the ratio 7:3. If 10 liters of water are added, the ratio becomes 7:5. What is the quantity of milk in the vessel?",
+          "options": ["35 liters", "42 liters", "49 liters", "56 liters"],
+          "answer": "35 liters"
+        },
+        {
+          "id": 35,
+          "question": "A can do a piece of work in 12 days, and B can do the same work in 18 days. In how many days can they complete the work together?",
+          "options": ["7.2", "7", "8", "8.2"],
+          "answer": "7.2"
+        },
+        {
+          "id": 36,
+          "question": "A train travels at a speed of 72 km/h. How much distance will it cover in 15 minutes?",
+          "options": ["12 km", "15 km", "18 km", "21 km"],
+          "answer": "18 km"
+        },
+        {
+          "id": 37,
+          "question": "Pipe A can fill a tank in 12 hours, and pipe B can empty it in 15 hours. If both pipes are opened simultaneously, how long will it take to fill the tank?",
+          "options": ["40 hours", "50 hours", "60 hours", "70 hours"],
+          "answer": "60 hours"
+        },
+        {
+          "id": 38,
+          "question": "If 3x + 2 = 11, then x = ?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "3"
+        },
+        {
+          "id": 39,
+          "question": "A ladder 10 meters long reaches a window 8 meters above the ground. What is the distance of the foot of the ladder from the base of the wall?",
+          "options": ["4 meters", "6 meters", "8 meters", "10 meters"],
+          "answer": "6 meters"
+        },
+        {
+          "id": 40,
+          "question": "What is the circumference of a circle with diameter 14 cm?",
+          "options": ["22 cm", "44 cm", "66 cm", "88 cm"],
+          "answer": "44 cm"
+        },
+        {
+          "id": 41,
+          "question": "What is the probability of getting a sum of 7 when two dice are thrown?",
+          "options": ["1/6", "1/5", "1/4", "1/3"],
+          "answer": "1/6"
+        },
+        {
+          "id": 42,
+          "question": "How many different words can be formed using the letters of the word 'APPLE'?",
+          "options": ["30", "60", "90", "120"],
+          "answer": "60"
+        }
+      ]

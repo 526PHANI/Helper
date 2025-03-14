@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sql-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #2a2a2a;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Title */
+  .sql-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #00bcd4;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Subtitle */
+  .sql-subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: #00bcd4;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00bcd4;
+    padding-bottom: 10px;
+  }
+  
+  /* Cheat Sheet Table Layout */
+  .sql-cheat-sheet {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .sql-cheat-sheet .description {
+    font-size: 18px;
+    color: #b0b0b0;
+    padding: 10px;
+    border-right: 2px solid #444;
+  }
+  
+  .sql-cheat-sheet .code {
+    background: #1a1a1a;
+    color: #00bcd4;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+  }
+  
+  /* Image Container */
+  .sql-image-container {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .sql-image {
+    max-width: 90%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+.sql-cheat-sheet {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr; /* Left column decreased further */
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.sql-cheat-sheet .description {
+    font-size: 18px;
+    color: #b0b0b0;
+    padding: 10px;
+    border-right: 2px solid #444;
+    text-align: start;
+    padding-left: 10px !important;
+}
+
+.sql-cheat-sheet .code {
+    background: #1a1a1a;
+    color: #00bcd4;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sql-cheat-sheet {
+        grid-template-columns: 1fr;
+    }
+
+    .sql-cheat-sheet .description {
+        border-right: none;
+        border-bottom: 2px solid #444;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+    }
+
+    .sql-image {
+        max-width: 90%;
+      }
+    
+}
+
+
+/* Responsive Design */

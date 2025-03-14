@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "question": "Spotting Errors: Identify the error in the sentence: 'She don't like apples.'",
+      "options": ["She", "don't", "like", "apples"],
+      "answer": "don't"
+    },
+    {
+      "id": 2,
+      "question": "Synonyms: Choose the synonym of 'abundant'.",
+      "options": ["Scarce", "Plentiful", "Limited", "Rare"],
+      "answer": "Plentiful"
+    },
+    {
+      "id": 3,
+      "question": "Antonyms: Choose the antonym of 'optimistic'.",
+      "options": ["Hopeful", "Pessimistic", "Cheerful", "Positive"],
+      "answer": "Pessimistic"
+    },
+    {
+      "id": 4,
+      "question": "Selecting Words: Choose the correct word to fill the blank: 'The weather is very ____ today.'",
+      "options": ["Whether", "Weather", "Wether", "Whither"],
+      "answer": "Weather"
+    },
+    {
+      "id": 5,
+      "question": "Spellings: Choose the correctly spelled word.",
+      "options": ["Accomodate", "Accommodate", "Acomodate", "Acommodate"],
+      "answer": "Accommodate"
+    },
+    {
+      "id": 6,
+      "question": "Sentence Formation: Choose the grammatically correct sentence.",
+      "options": ["He go to school.", "He goes to school.", "He going to school.", "He gone to school."],
+      "answer": "He goes to school."
+    },
+    {
+      "id": 7,
+      "question": "Ordering of Words: Rearrange the words to form a meaningful sentence: 'the/cat/mat/on/sat/the'.",
+      "options": ["The cat on sat the mat.", "The sat cat on the mat.", "The cat sat on the mat.", "On the mat sat the cat."],
+      "answer": "The cat sat on the mat."
+    },
+    {
+      "id": 8,
+      "question": "Sentence Correction: Correct the sentence: 'Me and him went to the store.'",
+      "options": ["Him and me went to the store.", "He and I went to the store.", "I and him went to the store.", "Me and he went to the store."],
+      "answer": "He and I went to the store."
+    },
+    {
+      "id": 9,
+      "question": "Sentence Improvement: Improve the sentence: 'He is more taller than his brother.'",
+      "options": ["He is more tall than his brother.", "He is taller than his brother.", "He is much taller than his brother.", "No improvement needed."],
+      "answer": "He is taller than his brother."
+    },
+    {
+      "id": 10,
+      "question": "Completing Statements: Complete the sentence: 'If it rains, ____.'",
+      "options": ["I went home.", "I will stay home.", "I go home.", "I am going home."],
+      "answer": "I will stay home."
+    },
+    {
+      "id": 11,
+      "question": "Ordering of Sentences: Arrange the sentences to form a coherent paragraph: (1) He went to the market. (2) He bought some fruits. (3) He returned home. (4) He ate the fruits.",
+      "options": ["1, 2, 3, 4", "4, 3, 2, 1", "2, 1, 4, 3", "3, 4, 1, 2"],
+      "answer": "1, 2, 3, 4"
+    },
+    {
+      "id": 12,
+      "question": "Paragraph Formation: Choose the sentence that best fits the paragraph: 'The city was bustling with activity. ____. People were rushing to their destinations.'",
+      "options": ["The traffic was light.", "The streets were empty.", "The atmosphere was calm.", "The streets were crowded."],
+      "answer": "The streets were crowded."
+    },
+    {
+      "id": 13,
+      "question": "Closet Test: Fill in the blank: 'He was ____ by the news.'",
+      "options": ["Shock", "Shocked", "Shocks", "Shocking"],
+      "answer": "Shocked"
+    },
+    {
+      "id": 14,
+      "question": "Comprehension: Read the passage and answer: 'The sun is a star. It provides light and heat to the Earth. What is the sun?'",
+      "options": ["A planet", "A star", "A moon", "A comet"],
+      "answer": "A star"
+    },
+    {
+      "id": 15,
+      "question": "One Word Substitutes: A person who writes books.",
+      "options": ["Doctor", "Teacher", "Author", "Engineer"],
+      "answer": "Author"
+    },
+    {
+      "id": 16,
+      "question": "Idioms and Phrases: What does 'a piece of cake' mean?",
+      "options": ["Difficult task", "Easy task", "Delicious food", "Expensive item"],
+      "answer": "Easy task"
+    },
+    {
+      "id": 17,
+      "question": "Change of Voice: Change the sentence to passive voice: 'She wrote a letter.'",
+      "options": ["A letter wrote by her.", "A letter was written by her.", "She was written a letter.", "By her a letter was written."],
+      "answer": "A letter was written by her."
+    },
+    {
+      "id": 18,
+      "question": "Change of Speech: Change to indirect speech: 'He said, 'I am going.''",
+      "options": ["He said that I am going.", "He said that he is going.", "He said that he was going.", "He said that I was going."],
+      "answer": "He said that he was going."
+    },
+    {
+      "id": 19,
+      "question": "Verbal Analogies: 'Cat' is to 'kitten' as 'dog' is to ____.",
+      "options": ["Puppy", "Canine", "Feline", "Animal"],
+      "answer": "Puppy"
+    },
+    {
+      "id": 20,
+      "question": "Articles: Choose the correct article: '____ apple a day keeps the doctor away.'",
+      "options": ["A", "An", "The", "No article"],
+      "answer": "An"
+    },
+    {
+      "id": 21,
+      "question": "Prepositions: Fill in the blank: 'He is sitting ____ the chair.'",
+      "options": ["In", "On", "At", "By"],
+      "answer": "On"
+    },
+    {
+      "id": 22,
+      "question": "Adjectives: Choose the adjective: 'The ____ flower smelled sweet.'",
+      "options": ["Flower", "Smelled", "Sweet", "The"],
+      "answer": "Sweet"
+    }
+  ]
