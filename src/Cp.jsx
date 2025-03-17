@@ -3,7 +3,7 @@ import "./cp.css";
  // Import the CSS file for styling
 import cCheatSheet from "./cCheatSheet.json"; // Import the JSON file
 
-const CProgramming = () => {
+const Cp = () => {
   return (
     <div className="c-container">
       {/* Title */}
@@ -30,4 +30,4 @@ const CProgramming = () => {
   );
 };
 
-export default CProgramming;
+export default Cp;
