@@ -1,8 +1,7 @@
 import { Link, Route, Routes, useLocation } from "react-router-dom";
 import Java from "./Java";
 import Python from "./Python";
-import CProgramming from "./cProgramming"; // Ensure this matches the actual filename
-
+import Cp from "./Cp"; // Updated import statement // Updated import statement for C Programming
 import CppProgramming from "./CppProgramming";
 import DataStructures from "./DataStructures";
 import SQL from "./SQL";
@@ -107,7 +106,7 @@ const Learning = () => {
           {/* Programming Languages */}
           <Route path="java" element={<Java />} />
           <Route path="python" element={<Python />} />
-          <Route path="c" element={<CProgramming />} />
+          <Route path="c" element={<Cp />} /> {/* Updated element to use `cp` */}
           <Route path="cpp" element={<CppProgramming />} />
 
           {/* Computer Science Topics */}

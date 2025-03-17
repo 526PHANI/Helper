@@ -1,5 +1,5 @@
 import React from "react";
-import "./CProgramming.css"; // Reusing the same CSS
+import "./cp.css"; // Reusing the same CSS
 import pythonCheatSheet from "./pythonCheatSheet.json"; // Import Python JSON file
 
 const PythonProgramming = () => {

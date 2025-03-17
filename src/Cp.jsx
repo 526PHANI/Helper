@@ -1,5 +1,6 @@
 import React from "react";
-import "./CProgramming.css"; // Import the CSS file for styling
+import "./cp.css";
+ // Import the CSS file for styling
 import cCheatSheet from "./cCheatSheet.json"; // Import the JSON file
 
 const CProgramming = () => {
