@@ -1,7 +1,8 @@
 import { Link, Route, Routes, useLocation } from "react-router-dom";
 import Java from "./Java";
 import Python from "./Python";
-import CProgramming from "./CProgramming";
+import CProgramming from "./cProgramming"; // Ensure this matches the actual filename
+
 import CppProgramming from "./CppProgramming";
 import DataStructures from "./DataStructures";
 import SQL from "./SQL";
