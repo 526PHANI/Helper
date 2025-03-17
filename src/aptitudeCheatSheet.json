@@ -1,0 +1,114 @@
+{
+    "sections": [
+      {
+        "title": "Number System",
+        "content": [
+          {
+            "description": "Divisibility Rules",
+            "code": "Divisible by 2: Last digit is even\nDivisible by 3: Sum of digits is divisible by 3\nDivisible by 5: Last digit is 0 or 5"
+          },
+          {
+            "description": "Prime Numbers",
+            "code": "A number greater than 1 with no positive divisors other than 1 and itself."
+          },
+          {
+            "description": "LCM and HCF",
+            "code": "LCM: Smallest number divisible by two numbers\nHCF: Largest number dividing two numbers"
+          }
+        ]
+      },
+      {
+        "title": "Percentages",
+        "content": [
+          {
+            "description": "Percentage Calculation",
+            "code": "Percentage = (Part / Whole) * 100"
+          },
+          {
+            "description": "Percentage Increase",
+            "code": "Increase = New Value - Original Value\nPercentage Increase = (Increase / Original Value) * 100"
+          },
+          {
+            "description": "Percentage Decrease",
+            "code": "Decrease = Original Value - New Value\nPercentage Decrease = (Decrease / Original Value) * 100"
+          }
+        ]
+      },
+      {
+        "title": "Profit and Loss",
+        "content": [
+          {
+            "description": "Profit Calculation",
+            "code": "Profit = Selling Price - Cost Price"
+          },
+          {
+            "description": "Loss Calculation",
+            "code": "Loss = Cost Price - Selling Price"
+          },
+          {
+            "description": "Profit Percentage",
+            "code": "Profit % = (Profit / Cost Price) * 100"
+          },
+          {
+            "description": "Loss Percentage",
+            "code": "Loss % = (Loss / Cost Price) * 100"
+          }
+        ]
+      },
+      {
+        "title": "Time and Work",
+        "content": [
+          {
+            "description": "Work Formula",
+            "code": "Work = Rate × Time"
+          },
+          {
+            "description": "Efficiency",
+            "code": "Efficiency = (Work Done) / (Time Taken)"
+          },
+          {
+            "description": "Combined Work",
+            "code": "If A can do a job in x days and B in y days, together they can do it in (xy) / (x + y) days."
+          }
+        ]
+      },
+      {
+        "title": "Time, Speed, and Distance",
+        "content": [
+          {
+            "description": "Speed Formula",
+            "code": "Speed = Distance / Time"
+          },
+          {
+            "description": "Distance Formula",
+            "code": "Distance = Speed × Time"
+          },
+          {
+            "description": "Time Formula",
+            "code": "Time = Distance / Speed"
+          },
+          {
+            "description": "Relative Speed",
+            "code": "If two objects move in the same direction, relative speed = |Speed1 - Speed2|\nIf opposite, relative speed = Speed1 + Speed2"
+          }
+        ]
+      },
+      {
+        "title": "Probability",
+        "content": [
+          {
+            "description": "Probability Formula",
+            "code": "Probability = (Number of Favorable Outcomes) / (Total Number of Outcomes)"
+          },
+          {
+            "description": "Independent Events",
+            "code": "P(A and B) = P(A) × P(B)"
+          },
+          {
+            "description": "Mutually Exclusive Events",
+            "code": "P(A or B) = P(A) + P(B)"
+          }
+        ]
+      }
+    ]
+  }

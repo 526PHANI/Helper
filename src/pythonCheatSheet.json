@@ -1,0 +1,200 @@
+{
+    "sections": [
+      {
+        "title": "Basic Concepts",
+        "content": [
+          {
+            "question": "What is Python?",
+            "answer": "Python is an interpreted, high-level programming language known for its simplicity and readability."
+          },
+          {
+            "question": "What are Python's key features?",
+            "answer": "Python is dynamically typed, interpreted, object-oriented, open-source, and has extensive libraries."
+          },
+          {
+            "question": "What is PEP 8?",
+            "answer": "PEP 8 is Python's official style guide that provides best practices for writing clean and readable code."
+          },
+          {
+            "question": "How is Python different from Java?",
+            "answer": "Python is dynamically typed and interpreted, whereas Java is statically typed and compiled."
+          }
+        ]
+      },
+      {
+        "title": "Data Types and Variables",
+        "content": [
+          {
+            "question": "What are Python's built-in data types?",
+            "answer": "int, float, str, list, tuple, dict, set, bool, NoneType."
+          },
+          {
+            "question": "What is the difference between mutable and immutable types?",
+            "answer": "Mutable types (lists, dicts, sets) can be changed after creation. Immutable types (int, str, tuple) cannot."
+          },
+          {
+            "question": "How do you swap two variables in Python?",
+            "answer": "x, y = y, x"
+          }
+        ]
+      },
+      {
+        "title": "Control Flow",
+        "content": [
+          {
+            "question": "What are conditional statements in Python?",
+            "answer": "if, elif, and else are used for decision-making in Python."
+          },
+          {
+            "question": "What types of loops exist in Python?",
+            "answer": "Python supports for loops and while loops."
+          },
+          {
+            "question": "How does a 'for' loop work?",
+            "answer": "A for loop iterates over a sequence (like a list or range) and executes code for each item."
+          }
+        ]
+      },
+      {
+        "title": "Functions",
+        "content": [
+          {
+            "question": "What is a function in Python?",
+            "answer": "A function is a reusable block of code that performs a specific task. It is defined using 'def'."
+          },
+          {
+            "question": "What are *args and **kwargs?",
+            "answer": "*args allows passing multiple positional arguments, while **kwargs allows multiple keyword arguments."
+          },
+          {
+            "question": "What is recursion?",
+            "answer": "A function that calls itself is recursive. Example: factorial calculation using recursion."
+          }
+        ]
+      },
+      {
+        "title": "Object-Oriented Programming (OOP)",
+        "content": [
+          {
+            "question": "What are Python's OOP principles?",
+            "answer": "Encapsulation, Inheritance, Polymorphism, and Abstraction."
+          },
+          {
+            "question": "What is the difference between a class and an object?",
+            "answer": "A class is a blueprint for objects. An object is an instance of a class."
+          },
+          {
+            "question": "What is method overriding?",
+            "answer": "Overriding allows a subclass to provide a specific implementation of a method from its superclass."
+          },
+          {
+            "question": "What are instance and class variables?",
+            "answer": "Instance variables are unique to an object, whereas class variables are shared among all instances of a class."
+          }
+        ]
+      },
+      {
+        "title": "Data Structures",
+        "content": [
+          {
+            "question": "What are lists in Python?",
+            "answer": "Lists are ordered, mutable collections that store elements of different data types."
+          },
+          {
+            "question": "What is the difference between a list and a tuple?",
+            "answer": "Lists are mutable, while tuples are immutable."
+          },
+          {
+            "question": "What are dictionaries?",
+            "answer": "Dictionaries are key-value pairs used to store and retrieve data efficiently."
+          },
+          {
+            "question": "How do sets work in Python?",
+            "answer": "Sets are unordered collections of unique elements. They do not allow duplicates."
+          }
+        ]
+      },
+      {
+        "title": "Memory Management",
+        "content": [
+          {
+            "question": "How does Python handle memory management?",
+            "answer": "Python uses automatic garbage collection and reference counting."
+          },
+          {
+            "question": "What is garbage collection?",
+            "answer": "Garbage collection removes unused objects from memory to free up space."
+          },
+          {
+            "question": "What is a memory leak in Python?",
+            "answer": "A memory leak occurs when unused objects are not freed due to lingering references."
+          }
+        ]
+      },
+      {
+        "title": "Error Handling",
+        "content": [
+          {
+            "question": "What is exception handling in Python?",
+            "answer": "Exception handling manages errors using try, except, else, and finally blocks."
+          },
+          {
+            "question": "What are common exceptions in Python?",
+            "answer": "KeyError, TypeError, ValueError, IndexError, ZeroDivisionError."
+          },
+          {
+            "question": "How do you raise an exception?",
+            "answer": "Use the 'raise' keyword. Example: raise ValueError('Invalid input')"
+          }
+        ]
+      },
+      {
+        "title": "File Handling",
+        "content": [
+          {
+            "question": "How do you open a file in Python?",
+            "answer": "Use the open() function with modes like 'r' (read), 'w' (write), 'a' (append), and 'rb' (binary read)."
+          },
+          {
+            "question": "What is the with statement in file handling?",
+            "answer": "Using 'with open()' ensures the file is closed properly after use."
+          },
+          {
+            "question": "How to read and write files in Python?",
+            "answer": "read(), readline(), and readlines() for reading. write() for writing."
+          }
+        ]
+      },
+      {
+        "title": "Multithreading & Concurrency",
+        "content": [
+          {
+            "question": "What is threading in Python?",
+            "answer": "Threading allows running multiple tasks in parallel but is limited by the Global Interpreter Lock (GIL)."
+          },
+          {
+            "question": "What is multiprocessing?",
+            "answer": "Multiprocessing allows running multiple processes independently, bypassing the GIL."
+          }
+        ]
+      },
+      {
+        "title": "Python Frameworks",
+        "content": [
+          {
+            "question": "What is Django?",
+            "answer": "Django is a high-level Python web framework used for rapid development."
+          },
+          {
+            "question": "What is Flask?",
+            "answer": "Flask is a lightweight Python web framework for building small-scale web applications."
+          },
+          {
+            "question": "What is the difference between Django and Flask?",
+            "answer": "Django is a full-stack framework, while Flask is micro-framework allowing more flexibility."
+          }
+        ]
+      }
+    ]
+  }
+  

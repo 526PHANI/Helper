@@ -1,0 +1,146 @@
+{
+    "sections": [
+      {
+        "title": "Arrays",
+        "content": [
+          {
+            "description": "Overview",
+            "details": "Arrays are one of the simplest and most widely used data structures. They store elements of the same type in contiguous memory locations, allowing for efficient access using indices."
+          },
+          {
+            "description": "Key Concepts",
+            "details": [
+              "Declaration and Initialization: Arrays can be declared with a fixed size or dynamically initialized with values.",
+              "Accessing Elements: Elements in an array are accessed using their index, starting from 0.",
+              "Iteration: Arrays can be traversed using loops to access or modify each element."
+            ]
+          },
+          {
+            "description": "Use Cases",
+            "details": "Arrays are ideal for situations where the size of the data is known in advance and random access to elements is required."
+          }
+        ]
+      },
+      {
+        "title": "Linked Lists",
+        "content": [
+          {
+            "description": "Overview",
+            "details": "A linked list is a linear data structure where each element (called a node) contains data and a reference (or pointer) to the next node in the sequence."
+          },
+          {
+            "description": "Key Concepts",
+            "details": [
+              "Node Structure: Each node typically contains two parts: the data and a pointer to the next node.",
+              "Insertion: Nodes can be inserted at the head, tail, or any position in the list.",
+              "Traversal: Linked lists are traversed sequentially, starting from the head node."
+            ]
+          },
+          {
+            "description": "Types of Linked Lists",
+            "details": [
+              "Singly Linked List: Each node points to the next node.",
+              "Doubly Linked List: Each node points to both the next and previous nodes.",
+              "Circular Linked List: The last node points back to the first node."
+            ]
+          },
+          {
+            "description": "Use Cases",
+            "details": "Linked lists are useful when the size of the data is dynamic and frequent insertions or deletions are required."
+          }
+        ]
+      },
+      {
+        "title": "Stacks",
+        "content": [
+          {
+            "description": "Overview",
+            "details": "A stack is a Last-In-First-Out (LIFO) data structure where elements are added and removed from the top."
+          },
+          {
+            "description": "Key Concepts",
+            "details": [
+              "Operations: The two primary operations are push (add an element to the top) and pop (remove the top element).",
+              "Implementation: Stacks can be implemented using arrays or linked lists.",
+              "Applications: Stacks are used in scenarios like function call management, undo mechanisms, and parsing expressions."
+            ]
+          },
+          {
+            "description": "Use Cases",
+            "details": "Stacks are ideal for problems requiring reverse order processing or backtracking."
+          }
+        ]
+      },
+      {
+        "title": "Queues",
+        "content": [
+          {
+            "description": "Overview",
+            "details": "A queue is a First-In-First-Out (FIFO) data structure where elements are added at the rear and removed from the front."
+          },
+          {
+            "description": "Key Concepts",
+            "details": [
+              "Operations: The primary operations are enqueue (add an element to the rear) and dequeue (remove an element from the front).",
+              "Implementation: Queues can be implemented using arrays or linked lists.",
+              "Variations: Circular Queue (a fixed-size queue where the rear wraps around to the front) and Priority Queue (elements are dequeued based on priority)."
+            ]
+          },
+          {
+            "description": "Use Cases",
+            "details": "Queues are used in scenarios like task scheduling, buffering, and breadth-first search algorithms."
+          }
+        ]
+      },
+      {
+        "title": "Trees",
+        "content": [
+          {
+            "description": "Overview",
+            "details": "A tree is a hierarchical data structure consisting of nodes, where each node has a parent and zero or more child nodes."
+          },
+          {
+            "description": "Key Concepts",
+            "details": [
+              "Binary Tree: A tree where each node has at most two children, referred to as the left and right child.",
+              "Traversal: Common traversal methods include inorder, preorder, and postorder.",
+              "Binary Search Tree (BST): A binary tree where the left child contains values less than the parent, and the right child contains values greater than the parent."
+            ]
+          },
+          {
+            "description": "Use Cases",
+            "details": "Trees are used in hierarchical data representation, search operations, and sorting algorithms."
+          }
+        ]
+      },
+      {
+        "title": "Graphs",
+        "content": [
+          {
+            "description": "Overview",
+            "details": "A graph is a collection of nodes (vertices) connected by edges. Graphs can be directed or undirected."
+          },
+          {
+            "description": "Key Concepts",
+            "details": [
+              "Representation: Graphs can be represented using adjacency lists or adjacency matrices.",
+              "Traversal: Common traversal algorithms include Breadth-First Search (BFS) and Depth-First Search (DFS).",
+              "Applications: Graphs are used in social networks, routing algorithms, and recommendation systems."
+            ]
+          },
+          {
+            "description": "Types of Graphs",
+            "details": [
+              "Directed Graph: Edges have a direction.",
+              "Undirected Graph: Edges have no direction.",
+              "Weighted Graph: Edges have weights associated with them."
+            ]
+          },
+          {
+            "description": "Use Cases",
+            "details": "Graphs are ideal for modeling relationships and networks."
+          }
+        ]
+      }
+    ]
+  }

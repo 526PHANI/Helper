@@ -1,0 +1,149 @@
+{
+    "sections": [
+      {
+        "title": "Basic Concepts",
+        "content": [
+          {
+            "question": "What is a programming language?",
+            "answer": "A programming language is a way to give instructions to a computer so it can perform tasks. Examples: C, Python, Java."
+          },
+          {
+            "question": "What is C language?",
+            "answer": "C is a programming language used to write software. It is fast, simple, and widely used in system programming."
+          },
+          {
+            "question": "What is the difference between a compiler and an interpreter?",
+            "answer": "A compiler translates the whole program at once before running it (Example: C, C++). An interpreter translates and runs the program line by line (Example: Python, JavaScript)."
+          },
+          {
+            "question": "What are variables?",
+            "answer": "Variables store values in a program. Example: int age = 25; Here, 'age' is a variable storing the value 25."
+          },
+          {
+            "question": "What are data types in C?",
+            "answer": "Data types define the type of data a variable can hold. Common types: int, float, char, double."
+          },
+          {
+            "question": "What is the difference between signed and unsigned integers?",
+            "answer": "Signed integers can store both positive and negative numbers, while unsigned integers can only store positive numbers."
+          }
+        ]
+      },
+      {
+        "title": "Control Structures",
+        "content": [
+          {
+            "question": "What is an if-else statement?",
+            "answer": "An if-else statement checks a condition. If it's true, it runs some code; otherwise, it runs different code."
+          },
+          {
+            "question": "What is a loop?",
+            "answer": "A loop repeats a block of code multiple times. Example: 'for loop' and 'while loop' in C."
+          },
+          {
+            "question": "What is the difference between for, while, and do-while loops?",
+            "answer": "For loop runs for a fixed number of iterations, while loop runs while a condition is true, and do-while runs at least once before checking the condition."
+          }
+        ]
+      },
+      {
+        "title": "Functions",
+        "content": [
+          {
+            "question": "What is a function in C?",
+            "answer": "A function is a block of code that performs a specific task and can be reused."
+          },
+          {
+            "question": "What is a recursive function?",
+            "answer": "A function that calls itself is called a recursive function. Example: Factorial calculation."
+          },
+          {
+            "question": "What is the difference between call by value and call by reference?",
+            "answer": "Call by value passes a copy of the variable, while call by reference passes the actual memory address, allowing modification of the original variable."
+          }
+        ]
+      },
+      {
+        "title": "Arrays and Strings",
+        "content": [
+          {
+            "question": "What is an array?",
+            "answer": "An array is a collection of elements of the same data type stored in contiguous memory locations."
+          },
+          {
+            "question": "How to declare and initialize an array?",
+            "answer": "Example: int arr[5] = {1, 2, 3, 4, 5};"
+          },
+          {
+            "question": "What is a string in C?",
+            "answer": "A string is an array of characters ending with a null character ('\\0')."
+          },
+          {
+            "question": "How to declare and initialize a string?",
+            "answer": "Example: char name[] = \"Hello\";"
+          }
+        ]
+      },
+      {
+        "title": "Pointers",
+        "content": [
+          {
+            "question": "What is a pointer?",
+            "answer": "A pointer is a variable that stores the memory address of another variable."
+          },
+          {
+            "question": "What is pointer dereferencing?",
+            "answer": "Dereferencing a pointer means accessing the value stored at the memory address it points to."
+          },
+          {
+            "question": "What is pointer arithmetic?",
+            "answer": "Pointer arithmetic includes operations like incrementing, decrementing, and adding/subtracting an integer from a pointer."
+          }
+        ]
+      },
+      {
+        "title": "Structures and Unions",
+        "content": [
+          {
+            "question": "What is a structure in C?",
+            "answer": "A structure is a user-defined data type that groups different types of variables under one name."
+          },
+          {
+            "question": "What is the difference between a structure and a union?",
+            "answer": "A structure stores all its members separately, while a union shares the same memory for all members, so only one can be used at a time."
+          }
+        ]
+      },
+      {
+        "title": "Memory Management",
+        "content": [
+          {
+            "question": "What is dynamic memory allocation?",
+            "answer": "Dynamic memory allocation allows memory to be allocated at runtime using malloc(), calloc(), realloc(), and freed using free()."
+          },
+          {
+            "question": "What is the difference between malloc() and calloc()?",
+            "answer": "malloc() allocates uninitialized memory, while calloc() allocates memory and initializes it to zero."
+          },
+          {
+            "question": "What is a memory leak?",
+            "answer": "A memory leak occurs when dynamically allocated memory is not freed, leading to wastage of memory."
+          }
+        ]
+      },
+      {
+        "title": "File Handling",
+        "content": [
+          {
+            "question": "What is file handling in C?",
+            "answer": "File handling allows us to store and retrieve data from files using functions like fopen(), fclose(), fread(), fwrite()."
+          },
+          {
+            "question": "What are the modes in which a file can be opened?",
+            "answer": "Common modes: 'r' (read), 'w' (write), 'a' (append), 'rb' (read binary), 'wb' (write binary)."
+          }
+        ]
+      }
+    ]
+  }
+  

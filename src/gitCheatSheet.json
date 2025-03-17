@@ -1,0 +1,123 @@
+{
+    "sections": [
+      {
+        "title": "Basic Commands",
+        "content": [
+          {
+            "description": "Initialize a Git Repository",
+            "code": "git init"
+          },
+          {
+            "description": "Clone a Repository",
+            "code": "git clone <repository-url>"
+          },
+          {
+            "description": "Check Repository Status",
+            "code": "git status"
+          }
+        ]
+      },
+      {
+        "title": "Staging and Committing",
+        "content": [
+          {
+            "description": "Stage All Changes",
+            "code": "git add ."
+          },
+          {
+            "description": "Stage Specific Files",
+            "code": "git add <file1> <file2>"
+          },
+          {
+            "description": "Commit Changes",
+            "code": "git commit -m \"Your commit message\""
+          }
+        ]
+      },
+      {
+        "title": "Branching",
+        "content": [
+          {
+            "description": "Create a New Branch",
+            "code": "git branch <branch-name>"
+          },
+          {
+            "description": "Switch to a Branch",
+            "code": "git checkout <branch-name>"
+          },
+          {
+            "description": "Create and Switch to a New Branch",
+            "code": "git checkout -b <branch-name>"
+          }
+        ]
+      },
+      {
+        "title": "Merging and Rebasing",
+        "content": [
+          {
+            "description": "Merge a Branch",
+            "code": "git merge <branch-name>"
+          },
+          {
+            "description": "Rebase a Branch",
+            "code": "git rebase <branch-name>"
+          },
+          {
+            "description": "Abort a Rebase",
+            "code": "git rebase --abort"
+          }
+        ]
+      },
+      {
+        "title": "Remote Repositories",
+        "content": [
+          {
+            "description": "Add a Remote Repository",
+            "code": "git remote add origin <repository-url>"
+          },
+          {
+            "description": "Push Changes to Remote",
+            "code": "git push origin <branch-name>"
+          },
+          {
+            "description": "Pull Changes from Remote",
+            "code": "git pull origin <branch-name>"
+          }
+        ]
+      },
+      {
+        "title": "Undoing Changes",
+        "content": [
+          {
+            "description": "Unstage a File",
+            "code": "git reset <file>"
+          },
+          {
+            "description": "Revert a Commit",
+            "code": "git revert <commit-hash>"
+          },
+          {
+            "description": "Reset to a Previous Commit",
+            "code": "git reset --hard <commit-hash>"
+          }
+        ]
+      },
+      {
+        "title": "GitHub Workflow",
+        "content": [
+          {
+            "description": "Fork a Repository",
+            "code": "Click the 'Fork' button on GitHub."
+          },
+          {
+            "description": "Create a Pull Request",
+            "code": "1. Push your changes to a branch.\n2. Click 'New Pull Request' on GitHub."
+          },
+          {
+            "description": "Sync a Forked Repository",
+            "code": "git remote add upstream <original-repo-url>\ngit fetch upstream\ngit merge upstream/main"
+          }
+        ]
+      }
+    ]
+  }

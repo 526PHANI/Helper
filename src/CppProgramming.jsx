@@ -1,13 +1,13 @@
 import React from "react";
 import "./CProgramming.css"; // Reusing the same CSS
-import javaCheatSheet from "./javaCheatSheet.json"; // Import Java JSON file
+import cppCheatSheet from "./cppCheatSheet.json"; // Import C++ JSON file
 
-const JavaProgramming = () => {
+const CppProgramming = () => {
   return (
     <div className="c-container">
-      <h1 className="c-title">Java Programming Interview Questions and Answers</h1>
+      <h1 className="c-title">C++ Programming Interview Questions and Answers</h1>
 
-      {javaCheatSheet.sections.map((section, sectionIndex) => (
+      {cppCheatSheet.sections.map((section, sectionIndex) => (
         <section key={sectionIndex}>
           <h2 className="c-subtitle">{section.title}</h2>
           <div className="c-cheat-sheet">
@@ -26,4 +26,4 @@ const JavaProgramming = () => {
   );
 };
 
-export default JavaProgramming;
+export default CppProgramming;

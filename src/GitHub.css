@@ -1,0 +1,73 @@
+/* Git/GitHub Container */
+.git-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #2a2a2a; /* Dark background for the container */
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Title */
+  .git-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #00bcd4; /* Accent color for the title */
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Subtitle */
+  .git-subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: #00bcd4; /* Accent color for subtitles */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00bcd4; /* Accent border for subtitles */
+    padding-bottom: 10px;
+  }
+  
+  /* Cheat Sheet Table Layout */
+  .git-cheat-sheet {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr; /* Left column for description, right for code */
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .git-cheat-sheet .description {
+    font-size: 18px;
+    color: #b0b0b0; /* Secondary text color */
+    padding: 10px;
+    border-right: 2px solid #444; /* Divider between description and code */
+    text-align: start; /* Align text to the left */
+    padding-left: 10px !important; /* Ensure consistent padding */
+  }
+  
+  .git-cheat-sheet .code {
+    background: #1a1a1a; /* Dark background for code */
+    color: #00bcd4; /* Accent color for code */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    white-space: pre-wrap; /* Preserve formatting for code */
+    font-family: "Courier New", Courier, monospace; /* Monospace font for code */
+    overflow-x: auto; /* Allow horizontal scrolling for long code */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .git-cheat-sheet {
+      grid-template-columns: 1fr; /* Stack description and code on smaller screens */
+    }
+  
+    .git-cheat-sheet .description {
+      border-right: none; /* Remove right border */
+      border-bottom: 2px solid #444; /* Add bottom border for separation */
+      padding-bottom: 15px;
+      margin-bottom: 10px;
+    }
+  }

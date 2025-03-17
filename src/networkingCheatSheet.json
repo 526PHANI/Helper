@@ -1,0 +1,193 @@
+{
+    "sections": [
+      {
+        "title": "OSI Model",
+        "content": [
+          {
+            "description": "Layer 1: Physical Layer",
+            "code": "Deals with the physical connection between devices (e.g., cables, switches)."
+          },
+          {
+            "description": "Layer 2: Data Link Layer",
+            "code": "Handles node-to-node data transfer (e.g., MAC addresses, Ethernet)."
+          },
+          {
+            "description": "Layer 3: Network Layer",
+            "code": "Manages device addressing and routing (e.g., IP addresses, routers)."
+          },
+          {
+            "description": "Layer 4: Transport Layer",
+            "code": "Ensures reliable data transfer (e.g., TCP, UDP)."
+          },
+          {
+            "description": "Layer 5: Session Layer",
+            "code": "Manages sessions between applications (e.g., RPC, NetBIOS)."
+          },
+          {
+            "description": "Layer 6: Presentation Layer",
+            "code": "Handles data formatting and encryption (e.g., SSL, JPEG)."
+          },
+          {
+            "description": "Layer 7: Application Layer",
+            "code": "Provides network services to applications (e.g., HTTP, FTP)."
+          }
+        ]
+      },
+      {
+        "title": "TCP/IP Model",
+        "content": [
+          {
+            "description": "Network Interface Layer",
+            "code": "Combines OSI's Physical and Data Link layers."
+          },
+          {
+            "description": "Internet Layer",
+            "code": "Corresponds to OSI's Network layer (e.g., IP, ICMP)."
+          },
+          {
+            "description": "Transport Layer",
+            "code": "Corresponds to OSI's Transport layer (e.g., TCP, UDP)."
+          },
+          {
+            "description": "Application Layer",
+            "code": "Combines OSI's Session, Presentation, and Application layers (e.g., HTTP, FTP)."
+          }
+        ]
+      },
+      {
+        "title": "IP Addressing",
+        "content": [
+          {
+            "description": "IPv4 Address",
+            "code": "32-bit address (e.g., 192.168.1.1)."
+          },
+          {
+            "description": "IPv6 Address",
+            "code": "128-bit address (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334)."
+          },
+          {
+            "description": "Subnetting",
+            "code": "Divides an IP network into smaller networks (e.g., 192.168.1.0/24)."
+          }
+        ]
+      },
+      {
+        "title": "Common Protocols",
+        "content": [
+          {
+            "description": "HTTP/HTTPS",
+            "code": "Hypertext Transfer Protocol (Secure) for web communication."
+          },
+          {
+            "description": "FTP",
+            "code": "File Transfer Protocol for file transfers."
+          },
+          {
+            "description": "DNS",
+            "code": "Domain Name System for resolving domain names to IP addresses."
+          },
+          {
+            "description": "DHCP",
+            "code": "Dynamic Host Configuration Protocol for automatic IP assignment."
+          }
+        ]
+      },
+      {
+        "title": "Network Devices",
+        "content": [
+          {
+            "description": "Router",
+            "code": "Connects different networks and routes data between them."
+          },
+          {
+            "description": "Switch",
+            "code": "Connects devices within a network and forwards data based on MAC addresses."
+          },
+          {
+            "description": "Hub",
+            "code": "Connects devices within a network but broadcasts data to all devices."
+          },
+          {
+            "description": "Firewall",
+            "code": "Filters incoming and outgoing network traffic based on security rules."
+          }
+        ]
+      },
+      {
+        "title": "Network Topologies",
+        "content": [
+          {
+            "description": "Star Topology",
+            "code": "All devices are connected to a central hub or switch."
+          },
+          {
+            "description": "Bus Topology",
+            "code": "All devices are connected to a single communication line."
+          },
+          {
+            "description": "Ring Topology",
+            "code": "Each device is connected to two other devices, forming a ring."
+          },
+          {
+            "description": "Mesh Topology",
+            "code": "Each device is connected to every other device in the network."
+          }
+        ]
+      },
+      {
+        "title": "Common Ports",
+        "content": [
+          {
+            "description": "HTTP",
+            "code": "Port 80"
+          },
+          {
+            "description": "HTTPS",
+            "code": "Port 443"
+          },
+          {
+            "description": "FTP",
+            "code": "Port 21"
+          },
+          {
+            "description": "SSH",
+            "code": "Port 22"
+          }
+        ]
+      },
+      {
+        "title": "Network Security",
+        "content": [
+          {
+            "description": "Firewall",
+            "code": "Filters incoming and outgoing traffic based on predefined rules."
+          },
+          {
+            "description": "VPN",
+            "code": "Creates a secure, encrypted connection over the internet."
+          },
+          {
+            "description": "IDS/IPS",
+            "code": "Intrusion Detection/Prevention Systems monitor and block malicious activity."
+          }
+        ]
+      },
+      {
+        "title": "Wireless Networking",
+        "content": [
+          {
+            "description": "Wi-Fi Standards",
+            "code": "802.11a/b/g/n/ac/ax (Wi-Fi 6)."
+          },
+          {
+            "description": "SSID",
+            "code": "Service Set Identifier: The name of a wireless network."
+          },
+          {
+            "description": "WPA/WPA2/WPA3",
+            "code": "Wi-Fi Protected Access protocols for securing wireless networks."
+          }
+        ]
+      }
+    ]
+  }

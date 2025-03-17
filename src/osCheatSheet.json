@@ -1,0 +1,186 @@
+{
+    "sections": [
+      {
+        "title": "Process Management",
+        "content": [
+          {
+            "description": "Process vs Thread",
+            "code": "Process: Independent unit of execution with its own memory space.\nThread: Lightweight process sharing memory space with other threads."
+          },
+          {
+            "description": "Process States",
+            "code": "1. New\n2. Ready\n3. Running\n4. Waiting\n5. Terminated"
+          },
+          {
+            "description": "Context Switching",
+            "code": "Saving and restoring the state of a process so that execution can be resumed later."
+          }
+        ]
+      },
+      {
+        "title": "Scheduling Algorithms",
+        "content": [
+          {
+            "description": "First-Come, First-Served (FCFS)",
+            "code": "Executes processes in the order they arrive."
+          },
+          {
+            "description": "Shortest Job First (SJF)",
+            "code": "Executes the process with the shortest burst time first."
+          },
+          {
+            "description": "Round Robin (RR)",
+            "code": "Executes processes in fixed time slices (time quantum)."
+          },
+          {
+            "description": "Priority Scheduling",
+            "code": "Executes processes based on priority."
+          }
+        ]
+      },
+      {
+        "title": "Memory Management",
+        "content": [
+          {
+            "description": "Paging",
+            "code": "Divides memory into fixed-size blocks called pages."
+          },
+          {
+            "description": "Segmentation",
+            "code": "Divides memory into variable-size blocks called segments."
+          },
+          {
+            "description": "Virtual Memory",
+            "code": "Allows execution of processes larger than physical memory by swapping data between RAM and disk."
+          }
+        ]
+      },
+      {
+        "title": "Deadlocks",
+        "content": [
+          {
+            "description": "Deadlock Conditions",
+            "code": "1. Mutual Exclusion\n2. Hold and Wait\n3. No Preemption\n4. Circular Wait"
+          },
+          {
+            "description": "Deadlock Prevention",
+            "code": "1. Avoid mutual exclusion where possible.\n2. Allow preemption.\n3. Use resource allocation graphs."
+          },
+          {
+            "description": "Deadlock Avoidance",
+            "code": "Use Banker's Algorithm to ensure safe resource allocation."
+          }
+        ]
+      },
+      {
+        "title": "File Systems",
+        "content": [
+          {
+            "description": "File Allocation Methods",
+            "code": "1. Contiguous Allocation\n2. Linked Allocation\n3. Indexed Allocation"
+          },
+          {
+            "description": "File System Types",
+            "code": "1. FAT (File Allocation Table)\n2. NTFS (New Technology File System)\n3. ext4 (Fourth Extended File System)"
+          },
+          {
+            "description": "Inode",
+            "code": "A data structure in Unix-like systems that stores metadata about a file."
+          }
+        ]
+      },
+      {
+        "title": "Synchronization",
+        "content": [
+          {
+            "description": "Critical Section",
+            "code": "A code segment that accesses shared resources and must not be executed by more than one process simultaneously."
+          },
+          {
+            "description": "Semaphore",
+            "code": "A synchronization tool that uses a counter to control access to shared resources."
+          },
+          {
+            "description": "Mutex",
+            "code": "A locking mechanism that ensures only one thread can access a resource at a time."
+          }
+        ]
+      },
+      {
+        "title": "Inter-Process Communication (IPC)",
+        "content": [
+          {
+            "description": "Pipes",
+            "code": "A unidirectional communication channel between processes."
+          },
+          {
+            "description": "Message Queues",
+            "code": "A linked list of messages stored in the kernel."
+          },
+          {
+            "description": "Shared Memory",
+            "code": "Allows multiple processes to share a region of memory."
+          }
+        ]
+      },
+      {
+        "title": "Disk Scheduling",
+        "content": [
+          {
+            "description": "First-Come, First-Served (FCFS)",
+            "code": "Executes disk requests in the order they arrive."
+          },
+          {
+            "description": "Shortest Seek Time First (SSTF)",
+            "code": "Executes the disk request with the shortest seek time first."
+          },
+          {
+            "description": "SCAN (Elevator Algorithm)",
+            "code": "Moves the disk arm in one direction, servicing requests along the way."
+          },
+          {
+            "description": "C-SCAN",
+            "code": "Moves the disk arm in one direction, servicing requests, and then returns to the start."
+          }
+        ]
+      },
+      {
+        "title": "System Calls",
+        "content": [
+          {
+            "description": "fork()",
+            "code": "Creates a new process by duplicating the calling process."
+          },
+          {
+            "description": "exec()",
+            "code": "Replaces the current process image with a new one."
+          },
+          {
+            "description": "wait()",
+            "code": "Makes the parent process wait for the child process to finish."
+          },
+          {
+            "description": "exit()",
+            "code": "Terminates the calling process."
+          }
+        ]
+      },
+      {
+        "title": "Security and Protection",
+        "content": [
+          {
+            "description": "Access Control Lists (ACLs)",
+            "code": "A list of permissions attached to an object specifying which users can access it."
+          },
+          {
+            "description": "Capability Lists",
+            "code": "A list of objects and the operations a process can perform on them."
+          },
+          {
+            "description": "Authentication",
+            "code": "Verifies the identity of a user or process."
+          }
+        ]
+      }
+    ]
+  }

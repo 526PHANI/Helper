@@ -1,0 +1,98 @@
+{
+    "sections": [
+      {
+        "title": "Basic Selectors",
+        "content": [
+          {
+            "description": "Element Selector",
+            "code": "p {\n  color: red;\n}"
+          },
+          {
+            "description": "Class Selector",
+            "code": ".class-name {\n  color: blue;\n}"
+          },
+          {
+            "description": "ID Selector",
+            "code": "#id-name {\n  color: green;\n}"
+          },
+          {
+            "description": "Universal Selector",
+            "code": "* {\n  margin: 0;\n  padding: 0;\n}"
+          }
+        ]
+      },
+      {
+        "title": "Box Model",
+        "content": [
+          {
+            "description": "Margin",
+            "code": "margin: 10px; /* All sides */\nmargin: 10px 20px; /* Top/Bottom, Left/Right */\nmargin: 10px 20px 30px 40px; /* Top, Right, Bottom, Left */"
+          },
+          {
+            "description": "Padding",
+            "code": "padding: 10px; /* All sides */\npadding: 10px 20px; /* Top/Bottom, Left/Right */\npadding: 10px 20px 30px 40px; /* Top, Right, Bottom, Left */"
+          },
+          {
+            "description": "Border",
+            "code": "border: 2px solid black;"
+          },
+          {
+            "description": "Box Sizing",
+            "code": "box-sizing: border-box;"
+          }
+        ]
+      },
+      {
+        "title": "Flexbox",
+        "content": [
+          {
+            "description": "Flex Container",
+            "code": "display: flex;\nflex-direction: row; /* or column */\njustify-content: center; /* or flex-start, flex-end, space-between, space-around */\nalign-items: center; /* or flex-start, flex-end, stretch */"
+          },
+          {
+            "description": "Flex Item",
+            "code": "flex: 1; /* Grow, shrink, basis */\nalign-self: flex-start; /* or flex-end, center */"
+          }
+        ]
+      },
+      {
+        "title": "Grid",
+        "content": [
+          {
+            "description": "Grid Container",
+            "code": "display: grid;\ngrid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */\ngrid-template-rows: auto; /* Auto-sized rows */\ngap: 10px; /* Gap between rows and columns */"
+          },
+          {
+            "description": "Grid Item",
+            "code": "grid-column: 1 / 3; /* Span 2 columns */\ngrid-row: 1 / 2; /* Span 1 row */"
+          }
+        ]
+      },
+      {
+        "title": "Transitions and Animations",
+        "content": [
+          {
+            "description": "Transition",
+            "code": "transition: all 0.3s ease;"
+          },
+          {
+            "description": "Keyframes Animation",
+            "code": "@keyframes slide {\n  0% { transform: translateX(0); }\n  100% { transform: translateX(100px); }\n}\nanimation: slide 2s infinite;"
+          }
+        ]
+      },
+      {
+        "title": "Responsive Design",
+        "content": [
+          {
+            "description": "Media Query",
+            "code": "@media (max-width: 768px) {\n  body {\n    font-size: 14px;\n  }\n}"
+          },
+          {
+            "description": "Viewport Meta Tag",
+            "code": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+          }
+        ]
+      }
+    ]
+  }

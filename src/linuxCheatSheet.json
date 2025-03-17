@@ -1,0 +1,292 @@
+{
+    "sections": [
+      {
+        "title": "Basic Commands",
+        "content": [
+          {
+            "description": "List files and directories",
+            "code": "ls"
+          },
+          {
+            "description": "List files in long format",
+            "code": "ls -l"
+          },
+          {
+            "description": "List all files (including hidden)",
+            "code": "ls -a"
+          },
+          {
+            "description": "Change directory",
+            "code": "cd <directory>"
+          },
+          {
+            "description": "Go to the home directory",
+            "code": "cd ~"
+          },
+          {
+            "description": "Go up one directory level",
+            "code": "cd .."
+          },
+          {
+            "description": "Print working directory",
+            "code": "pwd"
+          },
+          {
+            "description": "Create a new directory",
+            "code": "mkdir <directory>"
+          },
+          {
+            "description": "Remove an empty directory",
+            "code": "rmdir <directory>"
+          },
+          {
+            "description": "Clear the terminal screen",
+            "code": "clear"
+          }
+        ]
+      },
+      {
+        "title": "File Operations",
+        "content": [
+          {
+            "description": "Create a file",
+            "code": "touch <filename>"
+          },
+          {
+            "description": "Copy a file",
+            "code": "cp <source> <destination>"
+          },
+          {
+            "description": "Copy a directory recursively",
+            "code": "cp -r <source> <destination>"
+          },
+          {
+            "description": "Move or rename a file",
+            "code": "mv <source> <destination>"
+          },
+          {
+            "description": "Remove a file",
+            "code": "rm <filename>"
+          },
+          {
+            "description": "Remove a directory recursively",
+            "code": "rm -r <directory>"
+          },
+          {
+            "description": "View the contents of a file",
+            "code": "cat <filename>"
+          },
+          {
+            "description": "View the first few lines of a file",
+            "code": "head <filename>"
+          },
+          {
+            "description": "View the last few lines of a file",
+            "code": "tail <filename>"
+          },
+          {
+            "description": "Search for text in a file",
+            "code": "grep <pattern> <filename>"
+          }
+        ]
+      },
+      {
+        "title": "System Information",
+        "content": [
+          {
+            "description": "Display system information",
+            "code": "uname -a"
+          },
+          {
+            "description": "Check disk usage",
+            "code": "df -h"
+          },
+          {
+            "description": "Check memory usage",
+            "code": "free -h"
+          },
+          {
+            "description": "Display running processes",
+            "code": "top"
+          },
+          {
+            "description": "Display CPU information",
+            "code": "lscpu"
+          },
+          {
+            "description": "Display hardware information",
+            "code": "lshw"
+          },
+          {
+            "description": "Display kernel version",
+            "code": "uname -r"
+          },
+          {
+            "description": "Display uptime",
+            "code": "uptime"
+          }
+        ]
+      },
+      {
+        "title": "Networking",
+        "content": [
+          {
+            "description": "Check network interfaces",
+            "code": "ifconfig"
+          },
+          {
+            "description": "Ping a host",
+            "code": "ping <host>"
+          },
+          {
+            "description": "Display IP address",
+            "code": "ip addr show"
+          },
+          {
+            "description": "Check open ports",
+            "code": "netstat -tuln"
+          },
+          {
+            "description": "Trace the route to a host",
+            "code": "traceroute <host>"
+          },
+          {
+            "description": "Download a file from the web",
+            "code": "wget <url>"
+          },
+          {
+            "description": "Transfer data to/from a server",
+            "code": "scp <source> <destination>"
+          }
+        ]
+      },
+      {
+        "title": "Permissions",
+        "content": [
+          {
+            "description": "Change file permissions",
+            "code": "chmod <permissions> <filename>"
+          },
+          {
+            "description": "Change file ownership",
+            "code": "chown <user>:<group> <filename>"
+          },
+          {
+            "description": "Change group ownership",
+            "code": "chgrp <group> <filename>"
+          },
+          {
+            "description": "Set sticky bit on a directory",
+            "code": "chmod +t <directory>"
+          },
+          {
+            "description": "Set SUID bit on a file",
+            "code": "chmod u+s <filename>"
+          },
+          {
+            "description": "Set SGID bit on a file",
+            "code": "chmod g+s <filename>"
+          }
+        ]
+      },
+      {
+        "title": "Package Management",
+        "content": [
+          {
+            "description": "Update package list (Debian/Ubuntu)",
+            "code": "sudo apt update"
+          },
+          {
+            "description": "Upgrade installed packages (Debian/Ubuntu)",
+            "code": "sudo apt upgrade"
+          },
+          {
+            "description": "Install a package (Debian/Ubuntu)",
+            "code": "sudo apt install <package>"
+          },
+          {
+            "description": "Remove a package (Debian/Ubuntu)",
+            "code": "sudo apt remove <package>"
+          },
+          {
+            "description": "Search for a package (Debian/Ubuntu)",
+            "code": "apt search <package>"
+          },
+          {
+            "description": "Install a package (Red Hat/CentOS)",
+            "code": "sudo yum install <package>"
+          },
+          {
+            "description": "Remove a package (Red Hat/CentOS)",
+            "code": "sudo yum remove <package>"
+          },
+          {
+            "description": "Update all packages (Red Hat/CentOS)",
+            "code": "sudo yum update"
+          }
+        ]
+      },
+      {
+        "title": "Process Management",
+        "content": [
+          {
+            "description": "List running processes",
+            "code": "ps aux"
+          },
+          {
+            "description": "Kill a process by PID",
+            "code": "kill <pid>"
+          },
+          {
+            "description": "Kill a process by name",
+            "code": "pkill <process-name>"
+          },
+          {
+            "description": "Run a process in the background",
+            "code": "<command> &"
+          },
+          {
+            "description": "Bring a background process to the foreground",
+            "code": "fg"
+          },
+          {
+            "description": "Suspend a process",
+            "code": "Ctrl + Z"
+          },
+          {
+            "description": "Display process tree",
+            "code": "pstree"
+          }
+        ]
+      },
+      {
+        "title": "Shell Scripting",
+        "content": [
+          {
+            "description": "Create a shell script",
+            "code": "nano <script-name>.sh"
+          },
+          {
+            "description": "Make a script executable",
+            "code": "chmod +x <script-name>.sh"
+          },
+          {
+            "description": "Run a shell script",
+            "code": "./<script-name>.sh"
+          },
+          {
+            "description": "For loop example",
+            "code": "for i in {1..10}; do echo $i; done"
+          },
+          {
+            "description": "If-else example",
+            "code": "if [ condition ]; then echo 'True'; else echo 'False'; fi"
+          },
+          {
+            "description": "While loop example",
+            "code": "while [ condition ]; do echo 'Running'; done"
+          }
+        ]
+      }
+    ]
+  }

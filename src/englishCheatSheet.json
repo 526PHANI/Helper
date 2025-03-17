@@ -1,0 +1,106 @@
+{
+    "sections": [
+      {
+        "title": "Grammar Rules",
+        "content": [
+          {
+            "description": "Subject-Verb Agreement",
+            "code": "Singular subjects take singular verbs.\nExample: She runs every day."
+          },
+          {
+            "description": "Tenses",
+            "code": "Present: I walk\nPast: I walked\nFuture: I will walk"
+          },
+          {
+            "description": "Articles",
+            "code": "Use 'a' before consonant sounds and 'an' before vowel sounds.\nExample: a book, an apple"
+          }
+        ]
+      },
+      {
+        "title": "Punctuation",
+        "content": [
+          {
+            "description": "Comma Usage",
+            "code": "Use commas to separate items in a list.\nExample: I bought apples, oranges, and bananas."
+          },
+          {
+            "description": "Period Usage",
+            "code": "Use a period to end a declarative sentence.\nExample: This is a sentence."
+          },
+          {
+            "description": "Question Mark",
+            "code": "Use a question mark at the end of a question.\nExample: How are you?"
+          }
+        ]
+      },
+      {
+        "title": "Common Errors",
+        "content": [
+          {
+            "description": "Your vs. You're",
+            "code": "Your: Possessive form of 'you'\nExample: Your book is on the table.\nYou're: Contraction of 'you are'\nExample: You're doing great!"
+          },
+          {
+            "description": "There vs. Their vs. They're",
+            "code": "There: Refers to a place\nExample: The book is over there.\nTheir: Possessive form of 'they'\nExample: Their car is red.\nThey're: Contraction of 'they are'\nExample: They're coming to the party."
+          },
+          {
+            "description": "Its vs. It's",
+            "code": "Its: Possessive form of 'it'\nExample: The cat licked its paw.\nIt's: Contraction of 'it is' or 'it has'\nExample: It's raining outside."
+          }
+        ]
+      },
+      {
+        "title": "Vocabulary",
+        "content": [
+          {
+            "description": "Synonyms",
+            "code": "Happy: Joyful, Content, Delighted"
+          },
+          {
+            "description": "Antonyms",
+            "code": "Hot: Cold\nLight: Dark"
+          },
+          {
+            "description": "Homophones",
+            "code": "To, Too, Two\nExample: I want to go too. Two apples are on the table."
+          }
+        ]
+      },
+      {
+        "title": "Sentence Structure",
+        "content": [
+          {
+            "description": "Simple Sentence",
+            "code": "Contains one independent clause.\nExample: She reads books."
+          },
+          {
+            "description": "Compound Sentence",
+            "code": "Contains two independent clauses joined by a conjunction.\nExample: She reads books, and he watches movies."
+          },
+          {
+            "description": "Complex Sentence",
+            "code": "Contains one independent clause and one or more dependent clauses.\nExample: She reads books because she loves stories."
+          }
+        ]
+      },
+      {
+        "title": "Writing Tips",
+        "content": [
+          {
+            "description": "Clarity",
+            "code": "Use simple and clear language to convey your message."
+          },
+          {
+            "description": "Conciseness",
+            "code": "Avoid unnecessary words and phrases."
+          },
+          {
+            "description": "Consistency",
+            "code": "Maintain consistent tense, voice, and style throughout your writing."
+          }
+        ]
+      }
+    ]
+  }

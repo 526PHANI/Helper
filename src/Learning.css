@@ -1,48 +1,87 @@
 /* Learning Page Styles */
 .learning-container {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .learning-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: black;
-  }
-  
-  /* Card Layout */
-  .learning-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .learning-card {
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-  }
-  
-  /* Different Colors for Each Card */
-  .learning-card:nth-child(1) { background-color: #4A90E2; } /* Java - Blue */
-  .learning-card:nth-child(2) { background-color: #50C878; } /* Python - Green */
-  .learning-card:nth-child(3) { background-color: #F4A460; } /* SQL - Orange */
-  
-  /* Hover Effect */
-  .learning-card:hover {
-    opacity: 0.8;
-  }
-  
-  /* Content Area */
-  .learning-content {
-    margin-top: 20px;
-    padding: 15px;
-    border-top: 2px solid #ddd;
-  }
-  
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  min-height: 100vh;
+  color: #e0e0e0;
+}
+
+.learning-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Layout */
+.learning-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.learning-category {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.learning-category-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.learning-card {
+  padding: 20px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  flex: 1 1 calc(25% - 30px); /* Responsive card sizing */
+  max-width: 250px;
+  text-align: center;
+}
+
+/* Unique Colors for Each Card */
+.learning-card.java { background-color: #4A90E2; }
+.learning-card.python { background-color: #50C878; }
+.learning-card.c { background-color: #F4A460; }
+.learning-card.cpp { background-color: #f46060; }
+.learning-card.ds { background-color: #c060f4; }
+.learning-card.sql { background-color: #7960f4; }
+.learning-card.dbms { background-color: #5692b0; }
+.learning-card.os { background-color: #5aab95; }
+.learning-card.networking { background-color: #6aae57; }
+.learning-card.linux { background-color: #ae8157; }
+.learning-card.oop { background-color: #ae5757; }
+.learning-card.html { background-color: #5bae57; }
+.learning-card.css { background-color: #415f86; }
+.learning-card.aptitude { background-color: #4A90E2; }
+.learning-card.english { background-color: #50C878; }
+.learning-card.git { background-color: #F4A460; }
+
+/* Hover Effect */
+.learning-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Content Area */
+.learning-content {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #2a2a40;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

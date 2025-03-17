@@ -1,0 +1,224 @@
+{
+    "sections": [
+      {
+        "title": "Normalization",
+        "content": [
+          {
+            "description": "1st Normal Form (1NF)",
+            "code": "Eliminate duplicate columns and ensure atomic values in each cell."
+          },
+          {
+            "description": "2nd Normal Form (2NF)",
+            "code": "Remove partial dependencies by ensuring all non-key attributes depend on the entire primary key."
+          },
+          {
+            "description": "3rd Normal Form (3NF)",
+            "code": "Remove transitive dependencies by ensuring non-key attributes depend only on the primary key."
+          },
+          {
+            "description": "Boyce-Codd Normal Form (BCNF)",
+            "code": "A stronger version of 3NF where every determinant is a candidate key."
+          }
+        ]
+      },
+      {
+        "title": "ACID Properties",
+        "content": [
+          {
+            "description": "Atomicity",
+            "code": "Ensures that a transaction is treated as a single unit, either fully completed or fully rolled back."
+          },
+          {
+            "description": "Consistency",
+            "code": "Ensures that a transaction brings the database from one valid state to another."
+          },
+          {
+            "description": "Isolation",
+            "code": "Ensures that concurrent transactions do not interfere with each other."
+          },
+          {
+            "description": "Durability",
+            "code": "Ensures that once a transaction is committed, it remains permanent even in case of system failure."
+          }
+        ]
+      },
+      {
+        "title": "Transactions",
+        "content": [
+          {
+            "description": "Begin a Transaction",
+            "code": "BEGIN TRANSACTION;"
+          },
+          {
+            "description": "Commit a Transaction",
+            "code": "COMMIT;"
+          },
+          {
+            "description": "Rollback a Transaction",
+            "code": "ROLLBACK;"
+          },
+          {
+            "description": "Savepoint",
+            "code": "SAVEPOINT savepoint_name;"
+          }
+        ]
+      },
+      {
+        "title": "Indexing",
+        "content": [
+          {
+            "description": "Primary Index",
+            "code": "An index on the primary key of a table."
+          },
+          {
+            "description": "Secondary Index",
+            "code": "An index on non-primary key columns."
+          },
+          {
+            "description": "Clustered Index",
+            "code": "Determines the physical order of data in a table. Only one per table."
+          },
+          {
+            "description": "Non-Clustered Index",
+            "code": "Stores a separate structure with pointers to the actual data. Multiple per table."
+          }
+        ]
+      },
+      {
+        "title": "Joins",
+        "content": [
+          {
+            "description": "Inner Join",
+            "code": "Returns only matching rows from both tables."
+          },
+          {
+            "description": "Left Join",
+            "code": "Returns all rows from the left table and matching rows from the right table."
+          },
+          {
+            "description": "Right Join",
+            "code": "Returns all rows from the right table and matching rows from the left table."
+          },
+          {
+            "description": "Full Outer Join",
+            "code": "Returns all rows when there is a match in either left or right table."
+          }
+        ]
+      },
+      {
+        "title": "Keys",
+        "content": [
+          {
+            "description": "Primary Key",
+            "code": "A unique identifier for a row in a table. Cannot be NULL."
+          },
+          {
+            "description": "Foreign Key",
+            "code": "A column or set of columns that references the primary key of another table."
+          },
+          {
+            "description": "Candidate Key",
+            "code": "A set of columns that can uniquely identify a row. One of them is chosen as the primary key."
+          },
+          {
+            "description": "Super Key",
+            "code": "A set of columns that can uniquely identify a row. May include extra columns."
+          }
+        ]
+      },
+      {
+        "title": "Views",
+        "content": [
+          {
+            "description": "Create a View",
+            "code": "CREATE VIEW view_name AS\nSELECT column1, column2\nFROM table_name\nWHERE condition;"
+          },
+          {
+            "description": "Update a View",
+            "code": "CREATE OR REPLACE VIEW view_name AS\nSELECT column1, column2\nFROM table_name\nWHERE condition;"
+          },
+          {
+            "description": "Drop a View",
+            "code": "DROP VIEW view_name;"
+          }
+        ]
+      },
+      {
+        "title": "Stored Procedures",
+        "content": [
+          {
+            "description": "Create a Stored Procedure",
+            "code": "CREATE PROCEDURE procedure_name AS\nBEGIN\n  -- SQL statements\nEND;"
+          },
+          {
+            "description": "Execute a Stored Procedure",
+            "code": "EXEC procedure_name;"
+          },
+          {
+            "description": "Drop a Stored Procedure",
+            "code": "DROP PROCEDURE procedure_name;"
+          }
+        ]
+      },
+      {
+        "title": "Triggers",
+        "content": [
+          {
+            "description": "Create a Trigger",
+            "code": "CREATE TRIGGER trigger_name\nBEFORE/AFTER INSERT/UPDATE/DELETE\nON table_name\nFOR EACH ROW\nBEGIN\n  -- SQL statements\nEND;"
+          },
+          {
+            "description": "Drop a Trigger",
+            "code": "DROP TRIGGER trigger_name;"
+          }
+        ]
+      },
+      {
+        "title": "Deadlocks",
+        "content": [
+          {
+            "description": "What is a Deadlock?",
+            "code": "A situation where two or more transactions are waiting for each other to release locks, causing a standstill."
+          },
+          {
+            "description": "Preventing Deadlocks",
+            "code": "1. Use consistent locking order.\n2. Use timeouts.\n3. Use deadlock detection mechanisms."
+          }
+        ]
+      },
+      {
+        "title": "Concurrency Control",
+        "content": [
+          {
+            "description": "Locking",
+            "code": "Shared Lock (Read Lock): Allows multiple transactions to read but not write.\nExclusive Lock (Write Lock): Allows only one transaction to write."
+          },
+          {
+            "description": "Two-Phase Locking (2PL)",
+            "code": "1. Growing Phase: Acquire locks.\n2. Shrinking Phase: Release locks."
+          },
+          {
+            "description": "Timestamp Ordering",
+            "code": "Assigns a unique timestamp to each transaction and ensures serializability based on timestamps."
+          }
+        ]
+      },
+      {
+        "title": "Database Recovery",
+        "content": [
+          {
+            "description": "Log-Based Recovery",
+            "code": "Uses transaction logs to recover the database after a failure."
+          },
+          {
+            "description": "Checkpointing",
+            "code": "Periodically saves the state of the database to reduce recovery time."
+          },
+          {
+            "description": "Shadow Paging",
+            "code": "Maintains a shadow copy of the database to ensure consistency during recovery."
+          }
+        ]
+      }
+    ]
+  }

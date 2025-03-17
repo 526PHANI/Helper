@@ -1,0 +1,237 @@
+{
+    "sections": [
+      {
+        "title": "Basic Concepts",
+        "content": [
+          {
+            "question": "What is Java?",
+            "answer": "Java is a high-level, object-oriented programming language that is platform-independent due to its 'Write Once, Run Anywhere' nature."
+          },
+          {
+            "question": "What are the key features of Java?",
+            "answer": "Platform-independent, object-oriented, robust, secure, multithreaded, interpreted, and high performance."
+          },
+          {
+            "question": "What is the difference between JDK, JRE, and JVM?",
+            "answer": "JDK (Java Development Kit) contains JRE + development tools. JRE (Java Runtime Environment) contains JVM + libraries. JVM (Java Virtual Machine) executes Java bytecode."
+          },
+          {
+            "question": "What is the main difference between Java and C++?",
+            "answer": "Java is platform-independent and uses automatic garbage collection, while C++ is platform-dependent and requires manual memory management."
+          },
+          {
+            "question": "What is the 'static' keyword in Java?",
+            "answer": "The 'static' keyword is used for memory management, allowing variables, methods, and blocks to belong to the class rather than an instance of the class."
+          },
+          {
+            "question": "What is the 'final' keyword in Java?",
+            "answer": "The 'final' keyword is used to restrict modification. It can be applied to variables (constant), methods (cannot be overridden), and classes (cannot be inherited)."
+          }
+        ]
+      },
+      {
+        "title": "Data Types and Variables",
+        "content": [
+          {
+            "question": "What are Java's primitive data types?",
+            "answer": "byte, short, int, long, float, double, char, boolean."
+          },
+          {
+            "question": "What is autoboxing and unboxing in Java?",
+            "answer": "Autoboxing converts a primitive type to an object (e.g., int to Integer), and unboxing converts an object to a primitive type."
+          },
+          {
+            "question": "What is the difference between '==' and '.equals()' in Java?",
+            "answer": "'==' compares object references, while '.equals()' compares the content or values of objects."
+          },
+          {
+            "question": "What is a wrapper class in Java?",
+            "answer": "Wrapper classes provide a way to use primitive data types as objects. Examples include Integer, Double, and Boolean."
+          },
+          {
+            "question": "What is the difference between 'int' and 'Integer' in Java?",
+            "answer": "'int' is a primitive data type, while 'Integer' is a wrapper class that allows 'int' to be used as an object."
+          }
+        ]
+      },
+      {
+        "title": "Control Flow",
+        "content": [
+          {
+            "question": "What are Java's decision-making statements?",
+            "answer": "if-else, switch-case."
+          },
+          {
+            "question": "What are Java's looping statements?",
+            "answer": "for, while, do-while."
+          },
+          {
+            "question": "What is the difference between 'break' and 'continue' in Java?",
+            "answer": "'break' exits the loop, while 'continue' skips the current iteration and moves to the next."
+          },
+          {
+            "question": "What is the enhanced for loop in Java?",
+            "answer": "The enhanced for loop (for-each loop) is used to iterate over arrays or collections without needing an index."
+          },
+          {
+            "question": "What is the difference between 'while' and 'do-while' loops?",
+            "answer": "'while' checks the condition before execution, while 'do-while' checks the condition after execution, ensuring the loop runs at least once."
+          }
+        ]
+      },
+      {
+        "title": "Functions and Methods",
+        "content": [
+          {
+            "question": "What is method overloading?",
+            "answer": "Method overloading allows multiple methods in a class with the same name but different parameters."
+          },
+          {
+            "question": "What is method overriding?",
+            "answer": "Method overriding allows a subclass to provide a specific implementation of a method already defined in its superclass."
+          },
+          {
+            "question": "What is the difference between method overloading and overriding?",
+            "answer": "Overloading occurs within the same class with different parameters, while overriding occurs in a subclass with the same method signature as the superclass."
+          },
+          {
+            "question": "What is a constructor in Java?",
+            "answer": "A constructor is a special method used to initialize objects. It has the same name as the class and no return type."
+          },
+          {
+            "question": "Can a constructor be overridden?",
+            "answer": "No, constructors cannot be overridden because they are not inherited."
+          }
+        ]
+      },
+      {
+        "title": "Object-Oriented Programming (OOP)",
+        "content": [
+          {
+            "question": "What are Java's OOP principles?",
+            "answer": "Encapsulation, Inheritance, Polymorphism, and Abstraction."
+          },
+          {
+            "question": "What is an abstract class?",
+            "answer": "An abstract class in Java is a class that cannot be instantiated and may contain abstract methods (without implementations)."
+          },
+          {
+            "question": "What is an interface?",
+            "answer": "An interface is a collection of abstract methods that can be implemented by multiple classes."
+          },
+          {
+            "question": "What is the difference between an abstract class and an interface?",
+            "answer": "An abstract class can have both abstract and concrete methods, while an interface can only have abstract methods (before Java 8). Interfaces support multiple inheritance, but abstract classes do not."
+          },
+          {
+            "question": "What is encapsulation?",
+            "answer": "Encapsulation is the process of wrapping data and methods into a single unit (class) and restricting access to the data using access modifiers."
+          },
+          {
+            "question": "What is polymorphism?",
+            "answer": "Polymorphism allows methods to perform different tasks based on the object that invokes them. It can be achieved through method overriding and overloading."
+          }
+        ]
+      },
+      {
+        "title": "Data Structures",
+        "content": [
+          {
+            "question": "What is an ArrayList?",
+            "answer": "ArrayList is a resizable array implementation of the List interface in Java."
+          },
+          {
+            "question": "What is a HashMap?",
+            "answer": "HashMap is a collection that stores key-value pairs using a hash table."
+          },
+          {
+            "question": "What is the difference between ArrayList and LinkedList?",
+            "answer": "ArrayList uses a dynamic array, making it faster for random access, while LinkedList uses a doubly-linked list, making it faster for insertions and deletions."
+          },
+          {
+            "question": "What is the difference between HashMap and HashTable?",
+            "answer": "HashMap is not synchronized and allows one null key, while HashTable is synchronized and does not allow null keys or values."
+          },
+          {
+            "question": "What is a Set in Java?",
+            "answer": "A Set is a collection that does not allow duplicate elements. Common implementations include HashSet, LinkedHashSet, and TreeSet."
+          }
+        ]
+      },
+      {
+        "title": "Exception Handling",
+        "content": [
+          {
+            "question": "What is an exception in Java?",
+            "answer": "An exception is an event that disrupts program execution. Java provides try-catch blocks for handling exceptions."
+          },
+          {
+            "question": "What are checked and unchecked exceptions?",
+            "answer": "Checked exceptions must be handled (e.g., IOException), while unchecked exceptions occur at runtime (e.g., NullPointerException)."
+          },
+          {
+            "question": "What is the difference between 'throw' and 'throws' in Java?",
+            "answer": "'throw' is used to explicitly throw an exception, while 'throws' is used in method signatures to declare exceptions that the method might throw."
+          },
+          {
+            "question": "What is a finally block?",
+            "answer": "A finally block is used to execute important code (like closing resources) regardless of whether an exception is thrown or not."
+          },
+          {
+            "question": "What is a custom exception?",
+            "answer": "A custom exception is a user-defined exception created by extending the Exception class."
+          }
+        ]
+      },
+      {
+        "title": "Multithreading",
+        "content": [
+          {
+            "question": "What is multithreading in Java?",
+            "answer": "Multithreading allows concurrent execution of two or more parts of a program to utilize CPU efficiently."
+          },
+          {
+            "question": "What is the difference between Thread and Runnable?",
+            "answer": "Thread is a class, while Runnable is an interface used for defining tasks to be executed by a thread."
+          },
+          {
+            "question": "What is synchronization in Java?",
+            "answer": "Synchronization is the process of controlling access to shared resources by multiple threads to avoid thread interference."
+          },
+          {
+            "question": "What is a deadlock?",
+            "answer": "A deadlock occurs when two or more threads are blocked forever, waiting for each other to release resources."
+          },
+          {
+            "question": "What is the 'volatile' keyword in Java?",
+            "answer": "The 'volatile' keyword ensures that a variable's value is always read from and written to the main memory, not from a thread's local cache."
+          }
+        ]
+      },
+      {
+        "title": "Java Frameworks",
+        "content": [
+          {
+            "question": "What is Spring Framework?",
+            "answer": "Spring is a Java framework for building enterprise applications with dependency injection and AOP."
+          },
+          {
+            "question": "What is Hibernate?",
+            "answer": "Hibernate is a Java ORM framework that maps database tables to Java objects."
+          },
+          {
+            "question": "What is the difference between Spring and Hibernate?",
+            "answer": "Spring is a comprehensive framework for enterprise applications, while Hibernate is specifically an ORM tool for database interactions."
+          },
+          {
+            "question": "What is dependency injection in Spring?",
+            "answer": "Dependency injection is a design pattern where objects are passed their dependencies rather than creating them internally."
+          },
+          {
+            "question": "What is the difference between JPA and Hibernate?",
+            "answer": "JPA is a specification for ORM in Java, while Hibernate is an implementation of the JPA specification."
+          }
+        ]
+      }
+    ]
+  }

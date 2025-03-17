@@ -10,11 +10,11 @@ import Post from "./Post";  // Import the Post component
 import Learning from "./Learning";  // Import Learning component
 import Jobs from "./Jobs"; 
 import "./App.css";
-import { ThemeProvider } from "./ThemeContext";
+
 
 function App() {
   return (
-    <ThemeProvider>
+  
 
     
     <Router>
@@ -30,7 +30,7 @@ function App() {
         <Route path="/jobs" element={<Jobs />} /> 
       </Routes>
     </Router>
-    </ThemeProvider>
+
   );
 }
 

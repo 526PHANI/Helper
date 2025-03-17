@@ -1,0 +1,140 @@
+{
+    "sections": [
+      {
+        "title": "Core Concepts",
+        "content": [
+          {
+            "description": "Class",
+            "code": "A blueprint for creating objects. Defines properties and methods."
+          },
+          {
+            "description": "Object",
+            "code": "An instance of a class."
+          },
+          {
+            "description": "Encapsulation",
+            "code": "Bundling data and methods that operate on the data within a single unit (class)."
+          },
+          {
+            "description": "Abstraction",
+            "code": "Hiding complex implementation details and exposing only necessary features."
+          }
+        ]
+      },
+      {
+        "title": "Inheritance",
+        "content": [
+          {
+            "description": "Single Inheritance",
+            "code": "A class inherits from one base class."
+          },
+          {
+            "description": "Multiple Inheritance",
+            "code": "A class inherits from multiple base classes (not supported in all languages)."
+          },
+          {
+            "description": "Multilevel Inheritance",
+            "code": "A class inherits from a derived class, creating a chain of inheritance."
+          },
+          {
+            "description": "Hierarchical Inheritance",
+            "code": "Multiple classes inherit from a single base class."
+          }
+        ]
+      },
+      {
+        "title": "Polymorphism",
+        "content": [
+          {
+            "description": "Method Overloading",
+            "code": "Defining multiple methods with the same name but different parameters."
+          },
+          {
+            "description": "Method Overriding",
+            "code": "Redefining a method in a derived class with the same signature as in the base class."
+          },
+          {
+            "description": "Dynamic Binding",
+            "code": "The method to be executed is determined at runtime based on the object type."
+          }
+        ]
+      },
+      {
+        "title": "Abstraction",
+        "content": [
+          {
+            "description": "Abstract Class",
+            "code": "A class that cannot be instantiated and may contain abstract methods."
+          },
+          {
+            "description": "Interface",
+            "code": "A contract that defines a set of methods that a class must implement."
+          }
+        ]
+      },
+      {
+        "title": "Encapsulation",
+        "content": [
+          {
+            "description": "Access Modifiers",
+            "code": "1. Public: Accessible from anywhere.\n2. Private: Accessible only within the class.\n3. Protected: Accessible within the class and derived classes."
+          },
+          {
+            "description": "Getters and Setters",
+            "code": "Methods to access and modify private fields."
+          }
+        ]
+      },
+      {
+        "title": "Association",
+        "content": [
+          {
+            "description": "Aggregation",
+            "code": "A 'has-a' relationship where the child can exist independently of the parent."
+          },
+          {
+            "description": "Composition",
+            "code": "A 'has-a' relationship where the child cannot exist without the parent."
+          }
+        ]
+      },
+      {
+        "title": "Design Principles",
+        "content": [
+          {
+            "description": "SOLID Principles",
+            "code": "1. Single Responsibility Principle (SRP)\n2. Open/Closed Principle (OCP)\n3. Liskov Substitution Principle (LSP)\n4. Interface Segregation Principle (ISP)\n5. Dependency Inversion Principle (DIP)"
+          },
+          {
+            "description": "DRY Principle",
+            "code": "Don't Repeat Yourself: Avoid code duplication."
+          },
+          {
+            "description": "KISS Principle",
+            "code": "Keep It Simple, Stupid: Write simple and understandable code."
+          }
+        ]
+      },
+      {
+        "title": "Common Design Patterns",
+        "content": [
+          {
+            "description": "Singleton",
+            "code": "Ensures a class has only one instance and provides a global point of access."
+          },
+          {
+            "description": "Factory",
+            "code": "Creates objects without specifying the exact class."
+          },
+          {
+            "description": "Observer",
+            "code": "Defines a one-to-many dependency between objects."
+          },
+          {
+            "description": "Decorator",
+            "code": "Adds behavior to objects dynamically."
+          }
+        ]
+      }
+    ]
+  }

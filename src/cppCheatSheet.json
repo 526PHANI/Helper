@@ -1,0 +1,205 @@
+{
+    "sections": [
+      {
+        "title": "Basic Concepts",
+        "content": [
+          {
+            "question": "What is C++?",
+            "answer": "C++ is a general-purpose, object-oriented programming language that extends the C language with features like classes, inheritance, and polymorphism."
+          },
+          {
+            "question": "What are the key features of C++?",
+            "answer": "Object-oriented, platform-dependent, supports both procedural and object-oriented programming, rich standard library, and high performance."
+          },
+          {
+            "question": "What is the difference between C and C++?",
+            "answer": "C is a procedural language, while C++ is both procedural and object-oriented. C++ supports features like classes, inheritance, and polymorphism, which are not present in C."
+          },
+          {
+            "question": "What is the 'namespace' in C++?",
+            "answer": "A namespace is a declarative region that provides a scope to identifiers (e.g., variables, functions) to avoid naming conflicts."
+          },
+          {
+            "question": "What is the 'std' namespace in C++?",
+            "answer": "'std' is the standard namespace in C++ that contains standard library functions and objects like 'cout', 'cin', and 'vector'."
+          }
+        ]
+      },
+      {
+        "title": "Data Types and Variables",
+        "content": [
+          {
+            "question": "What are the basic data types in C++?",
+            "answer": "int, float, double, char, bool, void, and wchar_t."
+          },
+          {
+            "question": "What is the difference between 'int' and 'long' in C++?",
+            "answer": "'int' is typically 4 bytes, while 'long' is at least 4 bytes but can be larger depending on the system."
+          },
+          {
+            "question": "What is the 'auto' keyword in C++?",
+            "answer": "The 'auto' keyword automatically deduces the data type of a variable at compile time based on its initializer."
+          },
+          {
+            "question": "What is the difference between 'const' and 'constexpr'?",
+            "answer": "'const' indicates that a variable's value cannot be changed, while 'constexpr' indicates that the value is a compile-time constant."
+          }
+        ]
+      },
+      {
+        "title": "Control Flow",
+        "content": [
+          {
+            "question": "What are the decision-making statements in C++?",
+            "answer": "if-else, switch-case."
+          },
+          {
+            "question": "What are the looping statements in C++?",
+            "answer": "for, while, do-while."
+          },
+          {
+            "question": "What is the difference between 'break' and 'continue'?",
+            "answer": "'break' exits the loop, while 'continue' skips the current iteration and moves to the next."
+          },
+          {
+            "question": "What is the range-based for loop in C++?",
+            "answer": "The range-based for loop iterates over all elements of a container (e.g., array, vector) without needing an index."
+          }
+        ]
+      },
+      {
+        "title": "Functions",
+        "content": [
+          {
+            "question": "What is function overloading in C++?",
+            "answer": "Function overloading allows multiple functions with the same name but different parameters."
+          },
+          {
+            "question": "What is function overriding in C++?",
+            "answer": "Function overriding allows a derived class to provide a specific implementation of a function already defined in its base class."
+          },
+          {
+            "question": "What is the difference between pass-by-value and pass-by-reference?",
+            "answer": "Pass-by-value creates a copy of the argument, while pass-by-reference uses the original argument, allowing modifications to affect the original."
+          },
+          {
+            "question": "What is a lambda function in C++?",
+            "answer": "A lambda function is an anonymous function that can be defined inline and used as a function object."
+          }
+        ]
+      },
+      {
+        "title": "Object-Oriented Programming (OOP)",
+        "content": [
+          {
+            "question": "What are the OOP principles in C++?",
+            "answer": "Encapsulation, Inheritance, Polymorphism, and Abstraction."
+          },
+          {
+            "question": "What is a class in C++?",
+            "answer": "A class is a blueprint for creating objects. It defines properties (data members) and behaviors (member functions)."
+          },
+          {
+            "question": "What is the difference between a class and a struct?",
+            "answer": "In C++, the default access specifier for a class is 'private', while for a struct, it is 'public'."
+          },
+          {
+            "question": "What is inheritance in C++?",
+            "answer": "Inheritance allows a class (derived class) to inherit properties and behaviors from another class (base class)."
+          },
+          {
+            "question": "What is polymorphism in C++?",
+            "answer": "Polymorphism allows functions to behave differently based on the object that invokes them. It can be achieved through function overriding and templates."
+          },
+          {
+            "question": "What is a virtual function in C++?",
+            "answer": "A virtual function is a member function declared in a base class that can be overridden in a derived class, enabling runtime polymorphism."
+          },
+          {
+            "question": "What is an abstract class in C++?",
+            "answer": "An abstract class is a class that cannot be instantiated and contains at least one pure virtual function."
+          }
+        ]
+      },
+      {
+        "title": "Memory Management",
+        "content": [
+          {
+            "question": "What is the difference between 'new' and 'malloc'?",
+            "answer": "'new' is an operator in C++ that calls the constructor, while 'malloc' is a function in C that only allocates memory."
+          },
+          {
+            "question": "What is the difference between 'delete' and 'free'?",
+            "answer": "'delete' is an operator in C++ that calls the destructor, while 'free' is a function in C that only deallocates memory."
+          },
+          {
+            "question": "What is a smart pointer in C++?",
+            "answer": "A smart pointer is an object that manages the lifetime of a dynamically allocated object, automatically deallocating memory when no longer needed. Examples include 'unique_ptr', 'shared_ptr', and 'weak_ptr'."
+          },
+          {
+            "question": "What is a memory leak in C++?",
+            "answer": "A memory leak occurs when dynamically allocated memory is not deallocated, leading to wasted memory resources."
+          }
+        ]
+      },
+      {
+        "title": "Templates and STL",
+        "content": [
+          {
+            "question": "What is a template in C++?",
+            "answer": "A template allows functions or classes to operate with generic types, enabling code reusability."
+          },
+          {
+            "question": "What is the STL in C++?",
+            "answer": "The Standard Template Library (STL) is a library in C++ that provides templates for common data structures (e.g., vector, list) and algorithms (e.g., sort, search)."
+          },
+          {
+            "question": "What is a vector in C++?",
+            "answer": "A vector is a dynamic array in the STL that can resize itself automatically when elements are added or removed."
+          },
+          {
+            "question": "What is the difference between a vector and a list?",
+            "answer": "A vector provides fast random access but slower insertions/deletions, while a list provides fast insertions/deletions but slower random access."
+          }
+        ]
+      },
+      {
+        "title": "Exception Handling",
+        "content": [
+          {
+            "question": "What is exception handling in C++?",
+            "answer": "Exception handling is a mechanism to handle runtime errors using try, catch, and throw blocks."
+          },
+          {
+            "question": "What is the difference between 'throw' and 'throw()'?",
+            "answer": "'throw' is used to throw an exception, while 'throw()' (deprecated in C++11) specifies that a function does not throw any exceptions."
+          },
+          {
+            "question": "What is a custom exception in C++?",
+            "answer": "A custom exception is a user-defined exception class that inherits from the standard exception class."
+          }
+        ]
+      },
+      {
+        "title": "Advanced Concepts",
+        "content": [
+          {
+            "question": "What is the Rule of Three in C++?",
+            "answer": "The Rule of Three states that if a class defines one of the following, it should define all three: destructor, copy constructor, and copy assignment operator."
+          },
+          {
+            "question": "What is the Rule of Five in C++?",
+            "answer": "The Rule of Five extends the Rule of Three to include the move constructor and move assignment operator in C++11 and later."
+          },
+          {
+            "question": "What is RAII in C++?",
+            "answer": "RAII (Resource Acquisition Is Initialization) is a programming technique where resources are tied to object lifetimes, ensuring proper cleanup."
+          },
+          {
+            "question": "What is a move constructor in C++?",
+            "answer": "A move constructor transfers ownership of resources from one object to another, avoiding expensive deep copies."
+          }
+        ]
+      }
+    ]
+  }
